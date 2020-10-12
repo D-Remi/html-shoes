@@ -74,7 +74,7 @@ header{
    justify-content: flex-end;
 }
 
-.menu {
+menu {
   width: 80%;
   margin-top: 1em;
   padding: 0.8em 2em;
@@ -84,7 +84,7 @@ header{
   background-size: cover;
 }
 
-.menu ul {
+menu ul {
   padding-inline-start: 0.3em;
   padding: 0;
   margin: 0;
@@ -93,7 +93,7 @@ header{
   justify-content: space-around;
 }
 
-.menu ul li {
+menu ul li {
   color: white;
   text-align: right;
   margin-left: 0.565em;
@@ -155,10 +155,14 @@ header{
   }
 
   footer{
-    background-image: url('../img/bg.png');
-    background-position: center left;
-    background-repeat:no-repeat;
-    height: 100vh;
+    width:100%;
+    background-color:#051026;
+    position: relative;
+  }
+
+  footer img{
+    position: absolute;
+    width:50%
   }
 }
 
