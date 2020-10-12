@@ -59,20 +59,6 @@ header{
   display: none;
 }
 
-.paginator {
-  width: 100%;
-  height: 3em;
-  background-color: #eeecec;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.paginator img {
-  display: block;
-  width: 20em;
-}
-
 .menu-container{
   width: auto;
    background-color: #eeecec;
@@ -85,7 +71,7 @@ menu {
   margin-top: 1em;
   padding: 0.8em 2em;
   padding-inline-start: 0;
-  background-image: url("../img/bg@2x.png");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -144,7 +130,20 @@ menu ul li {
   }
 
   .header-article{
-    align-items:center
+    align-items:center;
+    flex-wrap:unset;
+  }
+
+  .paginator{
+    border: 1px solid #000;
+    width:40%;
+    height: 5em;
+  }
+
+  .paginator img{
+    width: 100%;
+    border: 1px solid #000;
+    height: 5em;
   }
 
   .header-article .header-article-img-1,
@@ -154,11 +153,14 @@ menu ul li {
   .header-article .header-article-img-1,
   .header-article .header-article-img-2,
   .header-article .header-article-img-3{
-    width:30%
+    width:35%
   }
 
   .header-article-img-1{
-    margin-right: 10em;
+    margin-left: -15em;
+  }
+  .header-article-img-2{
+    margin-right: 15em;
   }
   /* main */
 
