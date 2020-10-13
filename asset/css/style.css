@@ -101,6 +101,7 @@ menu ul li {
 
 @media screen and (min-width: 992px) {
   /* header */
+  
   .nav-mobile{
     display: none;
   }
@@ -128,19 +129,20 @@ menu ul li {
   }
 
   .header-article{
-    align-items:center;
+    display: block;
     flex-wrap:unset;
+    position: relative;
+    min-height:68vh;
+    margin-bottom: 2em;
   }
 
   .paginator{
-    border: 1px solid #000;
     width:40%;
     height: 5em;
   }
 
   .paginator img{
     width: 100%;
-    border: 1px solid #000;
     height: 5em;
   }
 
@@ -155,10 +157,23 @@ menu ul li {
   }
 
   .header-article-img-1{
-    margin-left: -15em;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-50%)
   }
   .header-article-img-2{
-    margin-right: 15em;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+  }
+
+  .header-article-img-3{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%,-50%)
   }
   /* main */
 
@@ -188,6 +203,7 @@ menu ul li {
     width:32%;
     background-color: #fff;
     border-radius: 0.8em;
+    height: 30em;
     position: relative;
   }
 
